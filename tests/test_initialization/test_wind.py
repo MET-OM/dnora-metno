@@ -20,3 +20,9 @@ def test_meps():
     from dnora_metno.wind import MEPS
 
     reader = MEPS()
+
+
+def test_climarest():
+    from dnora_metno.wind import CLIMAREST
+
+    reader = CLIMAREST()
