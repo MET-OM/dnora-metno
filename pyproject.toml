@@ -4,7 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dnora-metno"
-version = "0.1.0"  
 description = "Add-on to dnora: Access to MET Norway's weather products"
 authors = [ { name = "Konstantinos Christakos", email = "konstantinosc@met.no"}, { name = "Jan-Victor Björkqvist", email = "janvb@met.no" } ]
 urls = {homepage = "https://github.com/MET-OM/dnora-metno", download = "https://github.com/MET-OM/dnora-metno"}
@@ -24,4 +23,4 @@ test = ["pytest>=7.0"]
 license-files = ["LICENSE"]
 
 [tool.setuptools_scm]
-write_to = "dnora-metno/_version.py"
+write_to = "dnora_metno/_version.py"
