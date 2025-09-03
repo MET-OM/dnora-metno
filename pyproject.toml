@@ -7,7 +7,7 @@ name = "dnora-metno"
 description = "Add-on to dnora: Access to MET Norway's weather products"
 authors = [ { name = "Konstantinos Christakos", email = "konstantinosc@met.no"}, { name = "Jan-Victor Björkqvist", email = "janvb@met.no" } ]
 urls = {homepage = "https://github.com/MET-OM/dnora-metno", download = "https://github.com/MET-OM/dnora-metno"}
-requires-python = ">=3.9, <3.13"
+requires-python = ">=3.9, <3.11"
 dependencies = [
     "numpy>=1.17",
 ]
