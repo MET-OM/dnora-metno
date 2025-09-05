@@ -62,4 +62,8 @@ jobs:
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
         run: |
+          pip install typing-extensions
+          pip install --upgrade setuptools wheel twine
+          pip install --upgrade pkginfo
+          pip install -U packaging
           twine upload --skip-existing dist/*
